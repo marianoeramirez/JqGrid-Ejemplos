@@ -74,6 +74,7 @@
 		
 	}
 	//Asignamos todo esto en variables de json, para enviarlo al navegador.
+	$json = new stdClass();
 	$json->rows=$result;
 	$json->total=$total_pages;
 	$json->page=$post['page'];
